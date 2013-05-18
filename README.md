@@ -11,6 +11,7 @@ application: appengine-django-blank
 ローカルで動かす場合は、app.yamlのあるディレクトリで  
     $ dev_appserver.py .  
 を実行してください。dev_appserverはGoogle App EngineのSDKに含まれています。  
+※ SDK 1.8.0からdev_appserver.pyにシンボリックリンクを張って利用する場合、一緒に_python_runtime.pyにもシンボリックリンクを張る必要があります。
 http://localhost:8080/{message}にアクセスすると、Hello Worldと共にmessageが表示されます。  
 messageの部分は任意の文字列に変更してください。
 
