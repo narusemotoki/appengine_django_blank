@@ -1,4 +1,4 @@
-Google App EngineでDjango 1.4を動かすための空プロジェクトです。  
+Google App EngineでDjango 1.5を動かすための空プロジェクトです。  
 利用しやすいように少し無駄を残しています。
 
 ライセンスはMITライセンスです。Google App Engineなど、サーバ側で利用する分にはライセンス表記の必要もありません。  
